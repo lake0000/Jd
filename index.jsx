@@ -422,7 +422,7 @@ function Portfolio() {
           
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
             <ProjectCard 
-              title="岳麓山 AI 智能伴游 Agent" 
+              title="岳麓山 AI 智能伴游 小程序" 
               // 修正点：删除了语音互动，强调了前后端及云开发
               description="[C端产品尝试] 针对游客痛点，利用 Windsurf 独立开发的一站式智能导览工具。实现了前后端及云开发，集成了实时地图与个性化推荐，完成全栈闭环。"
               icon={Smartphone}
@@ -464,3 +464,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Portfolio />
   </React.StrictMode>
 );
+
