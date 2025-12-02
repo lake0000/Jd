@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // 重要：把下面的 'Jd' 替换成你 GitHub 仓库的实际名字
-  base: '/JD/', 
+  base: '/Jd/', 
 })
