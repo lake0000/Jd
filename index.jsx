@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
 import { 
   Github, 
   Cpu, 
@@ -174,7 +176,7 @@ const ProjectCard = ({ title, tags, description, icon: Icon, highlight }) => (
   </div>
 );
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div className="min-h-screen font-sans text-slate-800 selection:bg-blue-100 relative">
       <BackgroundPattern />
@@ -455,3 +457,10 @@ export default function Portfolio() {
     </div>
   );
 }
+
+// 挂载 React 应用到 DOM
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Portfolio />
+  </React.StrictMode>
+);
